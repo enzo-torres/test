@@ -9,6 +9,7 @@ namespace Primeiro
         static void Main(string[] args)
         {
             Coffee coffee = new Coffee();
+            Console.WriteLine("Hello, drinkers!");
             Console.WriteLine("Is the coffee empty?[y/n]");
             char answer = char.Parse(Console.ReadLine());
             if (answer == 'n')
