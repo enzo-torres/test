@@ -9,10 +9,10 @@ namespace Primeiro
         static void Main(string[] args)
         {
             Coffee coffee = new Coffee();
-            Console.WriteLine("Hello, drinkers!");
+            Console.WriteLine("Hello, coffee drinkers!");
             Console.WriteLine("Is the coffee empty?[y/n]");
             char answer = char.Parse(Console.ReadLine());
-            if (answer == 'n')
+            if (answer == 'n') 
             {
                 coffee.Refill();
             }
@@ -22,7 +22,7 @@ namespace Primeiro
                 coffee.Refill();
             }
 
-            Console.WriteLine("Do qou want to drink it?[y/n]");
+            Console.WriteLine("Do you want to drink it?[y/n]");
             answer = char.Parse(Console.ReadLine());
             if ( answer == 'y')
             {
@@ -31,7 +31,7 @@ namespace Primeiro
             }
             else
             {
-                Console.WriteLine("Why not?are you nuts???");
+                Console.WriteLine("Why not? Are you nuts???");
                 Console.WriteLine("Get out of here!!!!");
             }
         }
